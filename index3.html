@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: dodgerblue;
+            position: relative;
+        
+        }
+        #container {
+        position: relative;
+        width:100px ;
+        display: flex;
+    justify-content: flex-end;
+        height: 150px;
+        text-align: center;
+        margin-top: 100px;
+        border: 1px solid black;
+        border-radius: 5px;
+        }
+
+        #mainHeader{
+
+        width: 500px;
+        position:relative;
+        text-align: center;
+        margin-top: 200px; background-color: dodgerblue;
+        text-align: center;
+        margin-top: 200px;
+        
+        }
+        .small{
+            font-size: 12px;
+        }
+        .big{
+            font-size: 50px;
+        }
+        #side_bar{
+            background-color: white;
+            width: 270px;
+            height: 200vh;
+            position:relative;
+            top:0;
+            bottom:0;
+        }
+        #side_bar ul{
+            list-style-type: none;
+     }
+     .hidden{
+        display: none;
+    
+     }
+     .show{
+        display: block;
+
+     }
+    
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="container"  >
+        <!-- <div id="side_bar"  class="hidden">
+            <ul>
+                <li>Home</li>
+                <li>List</li>
+                <li>Search</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div id="mainHeader" class="small">This is a header<br>
+            <button  id="btn_click">Click Me!</button>
+        </div> -->
+
+        <div  class="container">
+            <img src="midback.jpg  "  width="100px" height="50px">
+            <p style="font-size: 10px;">Amount NGN50000</p>
+            
+            <p style="font-size: 10px;">2 in stock</p>
+            <button style="width:100px; margin-top: 35px;border-radius: 5px; border-style: none;" id="btn" class="hidden">Add to cart</button>
+
+
+        </div>
+       
+
+
+
+
+
+    </header>
+    
+</body>
+<script  src="AddClass.js"></script>
+</html>

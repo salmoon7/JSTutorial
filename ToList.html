@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: aqua;
+
+        }
+        .container{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+        }
+        #todo-list{
+            list-style-type:none;
+        }
+        button{
+            margin-left: 300px;
+            width: 150px;
+        }
+         li{
+            background-color: white;
+            width:300px;
+            margin: 25px;
+            text-align: start;
+            padding-left: 10px;
+            font-size: 12px;
+            margin-left: 150px;
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <button id="add-item">Add list Item</button>
+            <ul id="todo-list">
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+
+            </ul>
+        </div>
+    </header>
+</body>
+<script  src="ToList.js"></script>
+</html>
